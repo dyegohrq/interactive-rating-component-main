@@ -25,20 +25,42 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
-    position: relative;
+    height: 100vh;
 
     background-color: var(--Very-Dark-Blue);
+    display: flex;
+    flex-direction: row; /* A propriedade CSS flex-direction define como os itens flexíveis são colocados no contêiner flexível, definindo o eixo principal e a direção (normal ou invertido). */
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
     display: block;
-    position: absolute;
     width: 375px;
-
-    margin: auto;
-    top: 50%;
-    left: 50%;
+    padding: 25px;  
     background-color: var(--Dark-Blue);
-    background-position: center;
+    border-radius: 15px;
+}
+
+#icon img {
+    background-color: var(--Very-Dark-Blue);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--White);
+    margin-bottom: 20px;
+}
+
+section p {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    color: var(--Light-Grey);
+
 }
