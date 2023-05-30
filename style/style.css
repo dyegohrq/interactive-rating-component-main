@@ -67,11 +67,13 @@ section p {
 #list {
     display: flex;
     list-style: none;
+    
 }
 
 #list li {
-    margin: 30px 20px 30px 0px;
-    padding: 20px;
+    display: block;
+    margin: 30px 25px 30px 0px;
+    padding: 17px;
     background-color: rgb(31, 38, 46);
     border-radius: 50%;
     color: var(--Light-Grey);
