@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    /* Primary */
+
+    --Orange: hsl(25, 97%, 53%);
+
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+
+    ba
+}
