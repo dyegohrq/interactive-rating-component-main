@@ -67,7 +67,8 @@ section p {
 #list {
     list-style: none;
     display: flex;
-    flex-wrap: wrap; /* A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido, ele define a direção em que as linhas são empilhadas. */ /* wrap: Os itens flexíveis são quebrados em multiplas linhas. O cross-start é equivalente a iniciar ou antes dependendo do valor do flex-direction e cross-end é o oposto do especificado cross-start. */
+    flex-wrap: wrap; /* A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido, ele define a direção em que as linhas são empilhadas.
+    wrap: Os itens flexíveis são quebrados em multiplas linhas. O cross-start é equivalente a iniciar ou antes dependendo do valor do flex-direction e cross-end é o oposto do especificado cross-start. */
     align-items: center;
     justify-content: space-between; /* space-between: o que significa que o espaço disponível é compartilhado entre as linhas flexíveis, que são colocadas niveladas com o início e o fim do contêiner no eixo transversal. 
     */
@@ -77,7 +78,6 @@ section p {
 .rating-btn {
     background-color: #2b353f;
     width: 50px;
-    height: 50px;
     border-radius: 50%;
     border: none;
     color: var(--Light-Grey);
