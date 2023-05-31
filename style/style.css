@@ -44,7 +44,7 @@ body {
 }
 
 #icon img {
-    background-color: rgb(31, 38, 46);
+    background-color: #2b353f;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 50%;
@@ -65,33 +65,35 @@ section p {
 }
 
 #list {
-    display: flex;
     list-style: none;
-    
+    display: flex;
+    flex-wrap: wrap; /* A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido, ele define a direção em que as linhas são empilhadas. */ /* wrap: Os itens flexíveis são quebrados em multiplas linhas. O cross-start é equivalente a iniciar ou antes dependendo do valor do flex-direction e cross-end é o oposto do especificado cross-start. */
+    align-items: center;
+    justify-content: space-between; /* space-between: o que significa que o espaço disponível é compartilhado entre as linhas flexíveis, que são colocadas niveladas com o início e o fim do contêiner no eixo transversal. 
+    */
+    margin: 32px 0px;
 }
 
-#list li {
-    display: block;
-    margin: 30px 25px 30px 0px;
-    padding: 17px;
-    background-color: rgb(31, 38, 46);
+.rating-btn {
+    background-color: #2b353f;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    border: none;
     color: var(--Light-Grey);
     cursor: pointer;
 }
 
 button {
     width: 100%;
-    background-color: var(--Orange);
-    border-radius: 35px;
-    border: none;
-    color: var(--White);
+    height: 55px;
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
     font-family: var(--font);
-    letter-spacing: 3px;
-    padding: 20px;
-    margin-bottom: 20px;
+    letter-spacing: 4px;
+    background-color: var(--Orange);
+    color: var(--White);
+    border-radius: 30px;
+    border: none;
     cursor: pointer;
-}
+} 
