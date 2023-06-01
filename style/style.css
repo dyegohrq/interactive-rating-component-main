@@ -131,6 +131,21 @@ body{
     color: var(--Orange);
 }
 
+#ThankYou h2 {
+   margin: 28px 0px 10px 0px;
+   color: var(--White);
+   font-weight: 400;
+}
+
+#ThankYou p {
+    width: 295px;
+    color: var(--Medium-Grey);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
