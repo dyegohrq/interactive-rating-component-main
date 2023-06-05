@@ -36,13 +36,13 @@ body{
     flex-direction: column;
 }
 
-#main-container, #ThankYou {
+.main-container, .ThankYou {
    background-color: var(--Dark-Blue);
    border-radius: 15px;
    padding: 25px;
 }
 
-#main-container img {
+.main-container img {
     background-color: rgb(55, 68, 83);
     padding: 10px;
     margin-bottom: 20px;
@@ -50,13 +50,13 @@ body{
 
 }
 
-#main-container h1 {
+.main-container h1 {
     color: var(--White);
     margin-bottom: 15px;
     font-weight: 400;
 }
 
-#main-container p {
+.main-container p {
     line-height: 1.5em;
     color: var(--Medium-Grey);
     font-weight: 400;
@@ -64,7 +64,7 @@ body{
     margin-bottom: 25px;
 }
 
-#main-container ul {
+.main-container ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@ body{
     justify-content: space-between;
 }
 
-#main-container ul li button.bnt {
+.main-container ul li button.bnt {
     width: 3rem;
     height: 3rem;
     background-color: rgb(55, 68, 83);
@@ -83,12 +83,12 @@ body{
     transition: 0.8s;
 }
 
-#main-container ul li button.bnt:hover {
+.main-container ul li button.bnt:hover {
     background-color: var(--Orange);
     color: var(--White);
 }
 
-#main-container ul li button.bnt:focus {
+.main-container ul li button.bnt:focus {
     background-color: var(--Light-Grey);
     color: var(--White);
 }
@@ -114,36 +114,40 @@ body{
     color: var(--Orange);
 }
 
-#ThankYou {
+.ThankYou {
     margin-top: 30px;
     display: block;
     text-align: center;
 }
 
-#ThankYou img {
+.ThankYou img {
     margin: 15px 0;
 }
 
-#ThankYou p#rating {
+.ThankYou p#rating {
     background-color: rgba(25, 31, 37, 0.434);
     border-radius: 30px;
     padding: 5px;
     color: var(--Orange);
 }
 
-#ThankYou h2 {
+.ThankYou h2 {
    margin: 28px 0px 10px 0px;
    color: var(--White);
    font-weight: 400;
 }
 
-#ThankYou p {
+.ThankYou p {
     width: 295px;
     color: var(--Medium-Grey);
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     text-align: center;
+}
+
+.ThankYou.hidden {
+    display: none;
 }
 
 .attribution { 
