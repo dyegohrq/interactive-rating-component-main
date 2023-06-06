@@ -25,7 +25,7 @@
 
 body {
     display: flex;
-    width: 360px;
+    width: 375px;
     min-height: 100vh;
     background-color: var(--Very-Dark-Blue);
     font-family: var(--font);
