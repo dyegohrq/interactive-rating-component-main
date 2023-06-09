@@ -22,10 +22,10 @@
     /* Font  */
     --font: 'Overpass', sans-serif;
 }
-
 body {
     display: flex;
-    width: 375px;
+    max-width: 375px;
+    /*  Use largura máxima em vez de largura para tornar seu design mais responsivo. */
     min-height: 100vh;
     background-color: var(--Very-Dark-Blue);
     font-family: var(--font);
